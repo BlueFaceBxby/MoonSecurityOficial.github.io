@@ -10,13 +10,13 @@
 
    if(mysqli_num_rows($validar_login) >0){
     $_SESSION['usuario'] = $correo;
-    header("location: ../inicio.php");
+    header("location: ../inicio.html");
     exit();
    }else{
     echo '
     <script>
        alert("Usuario No Existente, Verifique Los Datos Introducidos");
-       window.location = "../index.php";
+       window.location = "../index.html";
     </script>
     ';
    }
