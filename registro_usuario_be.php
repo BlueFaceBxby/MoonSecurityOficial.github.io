@@ -17,7 +17,7 @@
      echo '
      <script>
        alert("Este Correo Ya esta Registrado, Intenta Con Otro Diferente.");
-       window.location = "../index.php";
+       window.location = "../index.html";
     </script>
     ';
     exit();
@@ -29,7 +29,7 @@
      echo '
      <script>
        alert("Este Usuario Ya esta Registrado, Intenta Con Otro Diferente.");
-       window.location = "../index.php";
+       window.location = "../index.html";
     </script>
     ';
     exit();
@@ -41,14 +41,14 @@
     echo '
     <script>
        alert("Usuario Almacenado Correctamente.");
-       window.location = "../inicio.php";
+       window.location = "../inicio.html";
     </script>
     ';
    }else{
     echo'
     <script>
        alert("Usuario No Almacenado");
-       window.location = "../index.php";
+       window.location = "../index.html";
     </script>
     ';
    }
